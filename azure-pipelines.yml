@@ -43,24 +43,8 @@ steps:
     command: 'build'
     arguments: '--no-restore --configuration Release'
     projects: '**/*.csproj'
-    Home
-Forum
-Blog of Things
-Poll
-Trending
-Random
-Stats
-Contact
-paste { Your code. Your site. Use it. }
-Welcome, guest! Login / Register - Why register?
- Pastes: 102821  Members: 8706  Social: 360 
-Paste
-Plain view Edit code Add this to your website Report abuse
- 
-http://bit.ly/2OuGw6F
-Share on Facebook Share on Twitter
-Pasted as Plain Text by maruti ( 10 seconds ago )
-- task: DotNetCoreCLI@2
+
+  - task: DotNetCoreCLI@2
     displayName: 'Publish the project - Release'
     inputs:
      command: 'publish'
